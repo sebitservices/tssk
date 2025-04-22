@@ -51,3 +51,10 @@ El sitio web está optimizado para todas las pantallas y dispositivos.
 ## 🤝 Contacto
 
 Para más información sobre nuestros servicios, visita [www.tssk.cl](https://www.tssk.cl) o contáctanos directamente. 
+
+## 👨‍💻 Desarrollador
+
+Este sitio web fue desarrollado por [Sebitservices.cl](https://sebitservices.cl)
+
+**Sebastian Peña Valenzuela**
+- Portafolio: [seb-dev.vercel.app](https://seb-dev.vercel.app/) 
