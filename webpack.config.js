@@ -6,6 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
+    publicPath: '/',
   },
   module: {
     rules: [
@@ -20,6 +21,10 @@ module.exports = {
         test: /\.css$/,
         use: ['style-loader', 'css-loader', 'postcss-loader'],
       },
+      {
+        test: /\.(png|jpg|jpeg|gif|webp|svg)$/,
+        type: 'asset/resource',
+      },
     ],
   },
   resolve: {
@@ -28,13 +33,16 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './public/index.html',
+      filename: 'index.html',
     }),
   ],
   devServer: {
     static: {
       directory: path.join(__dirname, 'public'),
     },
+    historyApiFallback: true,
     port: 3000,
     hot: true,
+    open: true,
   },
 }; 
