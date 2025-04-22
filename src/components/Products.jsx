@@ -69,7 +69,7 @@ const Products = () => {
         potencia: '5.5kW',
         control: 'PLC Siemens'
       },
-      image: '/img/productos/tensado-Automatico.webp'
+      image: '/img/productos/tensado-automatico.webp'
     }
   ];
 
